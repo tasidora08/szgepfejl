@@ -1,0 +1,53 @@
+﻿┌──────────────────────────────┐
+│ Forrásállományok ismertetése │
+└──────────────────────────────┘
+cpu.jpg        - LGA tokozású processzor képe
+ram.png        - Átlátszó hátterű RAM típusó memória képe
+Wallpaper.webp - Tapétaszerű háttérkép
+tablakezelo.js - JavaScript nyelven írt függvényt tartalmaz
+┌───────────────────────────────────────────────────────────────────────┐
+│ A hivatkozó feladatoknál használja fel/másolja be az alábbi részeket! │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────┐
+█ Új tartalmi rész █
+└──────────────────┘
+Memória
+A memória a számítógép működéséhez szükséges programot és program futásához szükséges adatokat tárolja
+Hagyományosan az elsődleges memória a processzor által aktívan használt, igen gyors elérésű memória, amelyet a futó programok használnak. Ide tartoznak a processzor regiszterei, a processzorban vagy azon kívül megvalósított gyorsítótárak és a számítógépben található operatív tár. Ezek leggyakrabban nem maradandó tárolók, tartalmukat a tápfeszültség megszűnésével elvesztik. Az operatív memóriát fő memóriának vagy központi memóriának is nevezik.
+tipp A memóriamennyiség növelésével a programokon belül gyorsabb válaszidőket érhetünk el. A nagyméretű adatokkal történő munkavégzés (filmszerkesztés, játék) igényli a sok memóriát. Ma már egy Windows 10-es rendszer optimális futtatásához a 8GB memória ajánlott.
+
+┌───────────────────────────┐
+■ Hivatkozási link a képhez ■
+└───────────────────────────┘
+https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory
+
+┌─────────────────────┐
+█ Táblázat új sorához █
+└─────────────────────┘
+Kingston KF3733C19D4/16GX 16GB DDR4 RAM
+18.5GB/sec
+
+┌─────────────────────┐
+█ Űrlap megvalósítása █
+└─────────────────────┘
+        <form>
+          <label for="tnev">Eszköz neve:</label>
+          <input type="text" name="" id="tnev">
+          <br>
+          <select id="tegyseg">
+            <option value="">Kb/sec</option>
+            <option value="">KB/sec</option>
+            <option selected value="">MB/sec</option>
+            <option value="">GB/sec</option>
+            <option value="">TB/sec</option>
+          </select>
+          <label for="tertek">Átviteli sebesség:</label>
+          <input type="number" name="" id="tertek" min="0">
+          <input type="button" value="Rögzít" onclick="sortRogzit()">
+        </form>
+
+┌───────────────────────────────┐
+■ URL cím a "CPU benchmark"-hoz ■
+└───────────────────────────────┘
+https://www.cpubenchmark.net/

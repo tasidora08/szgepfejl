@@ -1,0 +1,123 @@
+/*Ezeket a kijelőket nem módosíthatja!*/
+
+#hatterkep {
+  background-image: url("wallpaper.webp");  
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  filter: blur(2px) opacity(15%) sepia(100%);
+}
+
+.csik {
+  background-color: rgb(64, 111, 158);
+  padding: 2% 0;
+  color: aliceblue;
+}
+
+.definicio {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.bg-cim {
+  background-position: center;
+  height: 150px;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-hardver {
+  border: 4px solid rgb(30, 30, 155);
+  border-radius: 3%;
+  background-color: rgb(184, 227, 254);
+}
+
+.benchmark {
+  background-color: dodgerblue;
+  text-align: center;
+  border-radius: 5% 40%;
+  width: 80%;
+  margin: auto;
+  padding: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form {
+  background-color: rgb(185, 223, 223);
+  padding: 15px;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 80%;
+  float: right;
+}
+
+input[type="number"], select {
+  width: 40%;
+  float: right;
+}
+
+tr td:nth-child(2) {
+  text-align: right;
+  font-style: italic;
+}
+
+a {
+  color:darkblue;
+}
+
+li {
+  list-style: square;
+}
+
+/*─────────────────────────────────────────────────────────────────────────────
+↓ Csak ettől a ponttól módosíthat a fájlban! */
+
+table {
+  width: 100%;
+  /*Ezután bővítsen!*/
+  border: 3px dashed darkgreen;
+}
+
+span {
+  color:red; 
+  /*Ezután bővítsen!*/
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+
+.benchmark:hover {
+  background-color: darkblue;  
+  color: aqua;
+}
+
+
+h3 {
+  /*Ezután bővítsen!*/
+  margin: 25px 0;
+}
+
+th {
+  text-align: center;
+  /*Ezután bővítsen!*/
+  background-color: rgb(185, 223, 223);
+  font-size: 1.2rem;
+}
+
+/*─────────────────────────────────────────────────────────────────────────────
+↓ Új szelektorokat innentől kezdve vigyen fel! */
+#bentebb {
+  text-indent: 40px;
+}
+p {
+  text-align: justify;
+}
